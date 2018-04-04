@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "<IMAGE_REPO>",
+    "Name": "krevetka/test",
     "Update": "true"
   },
   "Ports": [
