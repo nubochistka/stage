@@ -2,7 +2,7 @@
 DATA_BASE_NAME=drupal
 USER_NAME=drupaluser
 PASSWORD=password
-HOST=drupal.clq9gjdsbzou.us-east-2.rds.amazonaws.com
+HOST=mydrupal.clq9gjdsbzou.us-east-2.rds.amazonaws.com
 PORT=3306
 NAME_IMAGE=test
 REPO_DOCKER=krevetka
