@@ -41,8 +41,6 @@ COPY php.ini /etc/php/5.6/fpm/php.ini
 RUN rm -rf /var/www
 COPY www /var/www
 
-RUN chgrp www-data /var/www/html/sites/default/files
-RUN chmod g+w /var/www/html/sites/default/files
 RUN chmod 777 /var/www/html/sites/default/settings.php
 
 EXPOSE 80
