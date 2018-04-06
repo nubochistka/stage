@@ -43,6 +43,10 @@ COPY www /var/www
 
 RUN chmod 777 /var/www/html/sites/default/settings.php
 
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+RUN /start.sh
+
 EXPOSE 80
 
 CMD ["supervisord", "--nodaemon", "--configuration", "/etc/supervisor/supervisord.conf"]
